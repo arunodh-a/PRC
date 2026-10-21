@@ -5,7 +5,7 @@ for i in range(n):
     my_list.append(elements)
     unique_elements=[]
 for item in my_list:
-    if item not in my_list:
+    if item not in unique_list:
         unique_elements.append(item)
 print("Original List:",my_list)
 print("Unique Elements:",unique_elements)
